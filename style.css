@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font: rgb(255, 174, 66);
+}
+
+body {
+    font-size: 17px;
+    font-family: 'Anek Tamil', sans-serif;
+    color: #837E9F;
+    background: #22212C;
+}
+
+.header {
+    padding: 2.5%;
+    background: #302F3D;
+    border-bottom: 16px #36353d solid;
+}
+
+
+.header h1 {
+    font-family: 'Merriweather Sans', sans-serif, cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.centro {
+    text-align: center;
+}
+
+.produtos-cadastrados {
+    display: block;
+    padding: 0 0% 2% 0%;
+    text-align: center;
+}
+
+.vendas, .vendidos {
+    margin: 1.5% 0;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    color: #837E9F;
+    margin: 3% 0;
+    text-align: center;
+    padding: 0.8%;
+    border-bottom: 2px rgba(255, 255, 255, 0.76) solid;
+}
+
+
+
+.bloco {
+    margin: 0px 3.5% 0px 3.5%;
+    display: inline;
+}
+
+.bloquear {
+    text-align: center;
+    margin: 2% 0 0 0;;
+    display: block;
+}
+
+.entradas {
+    margin: 1.5% 0%;
+    display: inline-block;
+}
+
+.entradas input {
+    width: 35%;
+    padding: 2% 2.5%;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.entradas input:active {
+    border-color: rgb(146, 254, 178);
+}
+
+.registrar input::placeholder {
+    color: rgba(128, 126, 126, 0.37);
+}
+
+.entradas input::placeholder {
+    color: rgba(128, 126, 126, 0.37);
+}
+
+#cadastro{
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.836);
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 5px;
+    background-color: #CB92B1;
+    padding: 1.1% 0.6%;
+    width: 20%;
+    margin: 5% 0 1% 0;
+    transition: all 0.15s;
+}
+
+#cadastro:hover, #vendidos:hover, #tabela-vendidos:hover {
+    cursor: pointer;
+}
+
+#cadastro:active, #vendidos:active, #tabela-vendidos:active {
+    transition: all 0.15s;
+    transform: scale(0.87);
+}
+
+.total-vendas, .total-vendidos {
+    width: 55%;
+    margin: 2% auto 6% auto;
+    padding: 0.2% 1% 3% 1%;
+    border: 2px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+}
+
+.bloquear p {
+    color: black;
+    font-size: 20px;
+}
+
+.produtos-vendidos {
+    text-align: center;
+}
+
+.produtos-vendidos h2 {
+    display: inline;
+    padding: 0.8%;
+    border-bottom: 2px rgba(22, 22, 22, 0.76) solid;
+}
+
+.registrar p {
+   margin: 5% 0 2% 0;
+}
+
+
+
+#vendidos {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.911);
+    border: 1px rgb(255, 174, 66) solid;
+    border-radius: 5px;
+    background-color: rgb(131, 45, 165);
+    padding: 1.1% 0.6%;
+    width: 15%;
+    margin: 3.5% 0 1% 0;
+    transition: all 0.15s;
+}
+
+.produtos-vendidos input {
+    margin: 0 1%;
+    width: 15%;
+    padding: 1% 0.5%;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#numero {
+    width: 5%;
+}
+
+#inputQtd {
+    width: 15%;
+}
+
+.saldo {
+    padding: 4%;
+    text-align: center;
+}
+
+#tabela-vendidos {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(22, 22, 22, 0.76);
+    border: 1px rgb(181, 190, 98) solid;
+    border-radius: 10px;
+    background-color: rgb(204, 215, 109);
+    padding: 1.1% 0.6%;
+    width: 12%;
+    margin: 3.5% 0 1% 0;
+    transition: all 0.15s;
+}
